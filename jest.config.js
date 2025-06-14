@@ -1,9 +1,8 @@
 /** @type {import('jest').Config} */
 const config = {
+  passWithNoTests: true,
   testEnvironment: 'node',
   transform: {},
-  // Tells Jest to look for .js files as ES modules
-  extensionsToTreatAsEsm: ['.js'],
   // Helps Jest resolve ES modules correctly
   moduleNameMapper: {
     '^(\\.{1,2}/.*)\\.js$': '$1',
