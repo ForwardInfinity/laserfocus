@@ -1,0 +1,6 @@
+{
+  "manifest_version": 3,
+  "name": "LaserFocus",
+  "version": "0.1.0",
+  "description": "An extension to help you stay focused by blocking distracting websites."
+} 
